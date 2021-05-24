@@ -52,13 +52,11 @@ li > a {
   width: 100%;
   height: 555px;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center bottom;
   background-size: cover;
-
 }
 
 /*紹介*/
-
 .container {
   display: flex;
   justify-content: space-around;
@@ -298,7 +296,7 @@ footer {
     margin-top: 90px;
   }
   
-  /* ハンバーガの中のメニューバー */
+  /* ハンバーガの中のメニューバー*/
   .menu-content {
     width: 200px;
     height: 200px;
@@ -306,7 +304,7 @@ footer {
     top: 0;
     left: 100%;
     z-index: 30;
-    background-color: blue;
+    background-color: rgb(189, 189, 245);
     transition: all 0.5s;
   }
   .menu-content ul {
@@ -342,7 +340,7 @@ footer {
     left: 0;
   }
 
-  p {
+  #menup {
     color: white;
     font-size: 15px;
     position: relative;
